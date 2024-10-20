@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Website</title>
     <style>
-        /* Basic Styles */
+      
 body, html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
 }
 
-/* Navigation Bar Styles */
+
 nav {
     position: fixed;
     top: 0;
@@ -49,12 +49,12 @@ nav ul li a:hover {
     color: #fff;
 }
 
-/* Change Background on Scroll */
+
 .scrolled {
     background-color: #da16b0;
 }
 
-/* Section Styles */
+
 section {
     padding: 50px;
     text-align: center;
@@ -62,7 +62,7 @@ section {
     margin-bottom: 50px;
 }
 
-/* Reduce section height */
+
 section {
     min-height: 42vh; /* Reduced from 100vh to 70vh */
 }
@@ -81,7 +81,6 @@ section {
     margin-bottom: 10px;
 }
 
-/* Contact Form Styles */
 form {
     display: flex;
     flex-direction: column;
@@ -107,9 +106,9 @@ form button:hover {
     background-color: #555;
 }
 
-/* Content Sections */
+
 .content {
-    margin-top: 100px; /* To prevent content from going under the navbar */
+    margin-top: 100px; 
     padding: 20px;
 }
 
@@ -117,7 +116,7 @@ form button:hover {
 </head>
 <body>
 
-    <!-- Navigation Bar -->
+    
     <nav id="navbar">
         <ul>
             <li><a href="#home">Home</a></li>
@@ -127,10 +126,10 @@ form button:hover {
         </ul>
     </nav>
 
-    <!-- Content Sections -->
+    
     <div class="content">
 
-        <!-- Home Section -->
+     
         <section id="home">
             <h1>Welcome to Our Website</h1>
             <p>
@@ -142,7 +141,7 @@ form button:hover {
             <button onclick="window.location.href='#services'">Discover Our Services</button>
         </section>
 
-        <!-- Services Section -->
+       
         <section id="services">
             <h1>Our Services</h1>
             <div class="service-box">
@@ -168,7 +167,7 @@ form button:hover {
             </div>
         </section>
 
-        <!-- About Section -->
+     
         <section id="about">
             <h1>About Us</h1>
             <p>
@@ -183,7 +182,7 @@ form button:hover {
             </blockquote>
         </section>
 
-        <!-- Contact Section -->
+      
         <section id="contact">
             <h1>Contact Us</h1>
             <p>
@@ -211,7 +210,7 @@ form button:hover {
     </div>
 
     <script>
-        // JavaScript to change navbar background color on scroll
+      
 window.addEventListener('scroll', function() {
     const navbar = document.getElementById('navbar');
     
